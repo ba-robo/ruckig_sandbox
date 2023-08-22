@@ -48,8 +48,6 @@ int main() {
     auto profile_0 = output.trajectory.get_profiles()[0][0];
     auto profile_1 = output.trajectory.get_profiles()[0][1];
 
-
-
     int count = 1;
 
     // Generate the trajectory within the control loop

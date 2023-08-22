@@ -84,7 +84,7 @@ class Plotter:
             plt.grid(True)
 
         plt.xlabel('t')
-        plt.savefig(Path(__file__).parent.parent / 'build' / filename)
+        plt.savefig(Path(__file__).parent / filename)
 
         if show:
             plt.show()

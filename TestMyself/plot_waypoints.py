@@ -5,7 +5,7 @@ from sys import path
 from plotter import Plotter
 import numpy as np
 
-path.insert(0, str(Path(__file__).parent.absolute().parent / 'build'))
+path.insert(0, str(Path(__file__).parent.absolute().parent))
 
 from ruckig import InputParameter, OutputParameter, Result, Ruckig, Trajectory, ControlInterface
 
