@@ -79,6 +79,9 @@ if(BUILD_EXAMPLES)
   endforeach()
 endif()
 
+add_executable(01_position TestMyself/01_position.cpp)
+target_link_libraries(01_position PRIVATE ruckig)
+
 
 if(BUILD_PYTHON_MODULE)
   # Check if pybind11 exists as a subdirectory
